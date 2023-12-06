@@ -1,0 +1,118 @@
+.aside_containerCreate{
+    padding: var(--size-small);   
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    background-color: var(--bg-color3);
+    height: 100vh;
+    min-width: 350px;
+    text-align: center;
+}
+.containerCreate_editor{
+    position: absolute;
+    top: 80;
+    right: -250px;
+    width: var(--width-medium);
+    background: var(--bg-color4);
+    padding: var(--size-small);
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+    opacity: 0.7;
+    box-shadow: var(--box-shadow1);
+}
+.containerCreate_editorClose{
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+.containerCreate_tasksAll{
+    padding-top: 20px;
+}
+.containerCreate_ColorsFilter{
+    padding-top: 40px;  
+}
+.containerCreate_editorInput{
+    width: 100%;
+    border-radius: 10px;
+    height: var(--size-medium);
+    padding: 0 var(--size-small); 
+}
+.containerCreate_editorColors{
+    display: flex;
+    justify-content: center;
+    column-gap: var(--size-verySmall); 
+    padding: var(--size-small);
+    z-index: 10;
+}
+.containerCreate_editorColorsAside{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: var(--size-verySmall); 
+    padding: var(--size-small);
+    z-index: 10;
+}
+.containerCreate_editorColorsActive{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.containerCreate_editorBtn{
+    padding: var(--size-small) var(--size-small);
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: var(--bg-color3);
+    color: var(--bg-color1);
+    width: 100%;
+    border: none;
+    margin-top: var(--size-medium);
+    transition: 0.3s;
+}
+.containerCreate_editorBtn:hover{
+    background-color: var(--bg-color2);
+}
+.containerCreate_taskClose{
+    position: absolute;
+    right: 15px;
+}
+.containerCreate_tasks{
+    margin-top: 20px;
+    margin-left: -40px;
+}
+.containerCreate_tasksAll{
+    font-size: 20px;
+    color: var(--bg-color1);    
+}
+.containerCreate_taskTitle{
+    display: flex;
+    font-size: 20px;
+    background-color: var(--bg-color4);
+    color: var(--bg-color2);
+    align-items: center;    
+    margin-bottom: var(--size-small);
+    height: var(--size-medium);
+    padding: 0 var(--size-small);
+    border-radius: var(--size-small);
+    cursor: pointer;
+    box-shadow: var(--box-shadow1);       
+}
+.containerCreate_taskTitle:active{
+    background-color: var(--bg-color7);
+}
+
+.containerCreate_taskColor{
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    margin: 0 10px;
+}
+.containerCreate_editorTitle{
+    position: absolute;
+    top: 300px;
+    right: -250px;
+    width: var(--width-medium);
+    background: var(--bg-color4);
+    padding: var(--size-small);
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;    
+}
